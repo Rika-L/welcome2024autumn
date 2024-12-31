@@ -50,15 +50,23 @@ layout: section
 layout: two-cols
 ---
 
-# 检察院项目
+<h2 v-click="1">党员管理系统</h2>
 
-This shows on the left
+<img v-click="1" src="/dy.png" mt-5 w-80/>
+
+<h2 v-click="3" mt-10>"恒壹云"小程序</h2>
+
+<img v-click="3" src="/hyy.png" mt-5 w-80/>
 
 ::right::
 
-# 党员管理系统
+<h2 v-click="2">实验室管理系统</h2>
 
-This shows on the right
+<img v-click="2" src="/sys.png" mt-5 w-80/>
+
+<h2 v-click="4" mt-10>某公司数据大屏及管理平台</h2>
+
+<img v-click="4" src="/dp.png" mt-5 w-80/>
 
 ---
 layout: section
@@ -78,7 +86,9 @@ layout: default
 layout: quote
 ---
 
-# 🙋 有听说过 <span text-hex-38bdf8 font-bold><span v-mark="1">Git</span></span> 吗？
+# 🙋 有听说过 <span text-hex-38bdf8 font-bold><span v-mark="1">Git</span></span>吗？
+
+<div i-devicon-git text-300px absolute top-35 right-30 v-click="1"/>
 
 ---
 layout: default
@@ -115,6 +125,12 @@ layout: default
 ---
 
 # ！<span text-hex-38bdf8 font-bold>Git</span>跟<span text-hex-38bdf8 font-bold>GitHub</span>不是一个东西！
+
+<div text-200px flex gap-5>
+  <div i-devicon-git/>
+  <div i-mdi-github />
+</div>
+
 
 ### 参考学习资料
 
