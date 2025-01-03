@@ -80,7 +80,33 @@ layout: section
 layout: default
 ---
 
-# 培养方案内容
+## 培养方案
+
+<h3 v-click="1">有能力参与项目开发前 以<span text-hex-38bdf8 font-bold><span v-mark.circle="2">自学</span></span>为主</h3>
+
+<h3 v-click="3">并同时采用<span text-hex-38bdf8 font-bold><span v-mark.circle="4">一对一</span></span>指导</h3>
+
+<h3 v-click="5">即</h3>
+
+<h4 v-click="6">由相关开发领域的<span text-hex-38bdf8 font-bold><span v-mark="7">本科生</span></span>师兄带领，对相关<span text-hex-38bdf8 font-bold><span v-mark="8">学习问题</span></span>、<span text-hex-38bdf8 font-bold><span v-mark="9">项目问题</span></span>进行答疑等，并分享一些<span text-hex-38bdf8 font-bold><span v-mark="10">实际开发</span></span>经验</h4>
+
+<blockquote v-click="11">
+  <p>别把师兄当GPT用哈 (>▽</p>
+  <p>提问前可以看看这个<a target="_blank" href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md">How-To-Ask-Questions-The-Smart-Way 提问的智慧</a></p>
+</blockquote>
+
+<h4 v-click="12">进度约<span text-hex-38bdf8 font-bold><span v-mark="13">一个月</span></span>进行一次线下汇报会。不需要准备稿子，可以直接对着代码讲讲学习情况，遇到的问题等</h4>
+
+<blockquote v-click="14">
+ 长期不来实验室，不参与实验室的事务或工作，视情况进行劝退。
+</blockquote>
+
+
+<style>
+* {
+  margin-bottom: 15px;
+}
+</style>
 
 ---
 layout: quote
@@ -145,6 +171,13 @@ layout: default
 
 ---
 layout: end
+---
+
+## Dreaming up ideas and making them come true
+### 构建想法并让它们成为现实
+
+---
+layout: quote
 ---
 
 # The End
